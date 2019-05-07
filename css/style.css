@@ -27,7 +27,7 @@ h3{
 
 	font-size: 30px;
 	font-family:italic; 
-	background-color: #ffffff;
+
  }  
  .grid-container {
   display: grid;
@@ -42,5 +42,75 @@ h3{
 	padding: 30px;
 
 }
+/*Navigation */
+.grid-container1{
+display: grid;
+grid-template-columns: 150px auto;
+background-color: black;
 
 
+}
+.grid-container1 > div {
+
+text-align: center;
+padding: 20px 0;
+font-size: 20px;
+border: 0px solid  white;
+font-family: sans-serif;
+
+}
+.wrap a
+{
+
+
+font-size: 20px;
+color: grey;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+list-style: none;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover a:hover{
+	font-color: white;
+}
+.grid-container3
+{
+background-color: grey;
+
+padding-left: 50px;
+display: grid;
+grid-template-columns:300px auto;
+grid-template-rows:200px;
+
+
+}
+.div3{
+	display:inline;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
