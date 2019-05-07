@@ -1,5 +1,5 @@
 h1{
-	text-align:center;
+	
 	font-size: 80px;
 	font-family:italic;
 	background-color: #ffffff;
@@ -15,6 +15,9 @@ h2{
 }
 h3{
 	text-align:center;
+	}
+	p{
+		text-align:center;
 	}
 
    img{
@@ -113,4 +116,12 @@ grid-template-rows:200px;
 	display:inline;
 	text-decoration: none;
 	padding-bottom: 20px;
+}
+iframe{
+height: 100%;
+width:100%;
+ frameborder:0;
+  scrolling:no;
+
+
 }
